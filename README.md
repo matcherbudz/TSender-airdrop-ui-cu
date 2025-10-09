@@ -1,6 +1,6 @@
 # Welcome to Jeff's Airdrop Token Sender!
 
-This project is to learn how to build a fullstack web application that uses an ERC20 smart contract to use a token contract address and airdrop the token to multiple recipients.
+This project is to learn how to build a fullstack web3 application that uses a ERC20 smart contract to airdrop any ERC20 Token contract address to airdrop tokens to multiple recipients.
 
 A 100% client-side UI for the TSender contract.
 

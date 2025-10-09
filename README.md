@@ -1,4 +1,6 @@
-# Welcome to Jeff's Airdrop Token Sender! (Mock Token Contract Address for testing locally with Anvil `0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512`)
+# Welcome to Jeff's Airdrop Token Sender! 
+
+(Mock Token Contract Address for testing locally with Anvil `0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512`)
 
 This project is to learn how to build a fullstack web3 application that uses a ERC20 smart contract to airdrop any ERC20 Token contract address to airdrop tokens to multiple recipients.
 

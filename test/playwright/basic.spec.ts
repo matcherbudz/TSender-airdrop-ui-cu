@@ -35,7 +35,7 @@ test("shows the airdrop form when connected, otherwise not", async ({ page, cont
     symbol: 'ETH'
   }
 
-  await expect(page.getByText("Token Address")).toBeVisible()
+  await expect(page.getByText("Token Contract Address")).toBeVisible()
 })
 
 

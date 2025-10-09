@@ -18,7 +18,7 @@ export default function HomeContent() {
 
             ) : (
                 <div style={{ fontSize: '80px' }} className="flex items-center justify-center">
-                    Please connect a wallet \(^.^)/
+                    Please connect a wallet <p>\(^.^)/</p>
                 </div>
             )}
         </main>

@@ -96,7 +96,7 @@ Then, you should be able to run:
 pnpm test:e2e
 ```
 
-Then hit the play button and the playwright tests should work
+Then hit the play button and the playwright tests should work. Testing that the page has the right title, then testing that when connected it shows the airdrop form with Token Contract Address, and when not connected it shows the page without the airdrop form. 
 
 <!-- # Install from scratch notes
 

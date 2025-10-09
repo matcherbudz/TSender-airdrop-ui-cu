@@ -42,6 +42,7 @@ You'll need to add a `.env.local` to the main directory and the following enviro
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id_here
 
 You can either add it in vscode or through the terminal
+First make sure you're in the ~/TSender-airdrop-ui-cu directory
 ```bash
 touch .env.local
 nano .env.local

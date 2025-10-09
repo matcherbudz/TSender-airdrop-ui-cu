@@ -49,7 +49,8 @@ nano .env.local
 # Now add `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id_here`
 ```
 
-You'll want to make sure you have a Metamask/Rabby wallet connected to your anvil instance. Ideally you're connected to the wallet that comes with the default anvil instance. This will have some mock tokens in it.
+You'll want to make sure you have a Metamask/Rabby wallet and add the Anvil network in cutsom networks using the rpc url http://127.0.0.1:8545, chain id 31337, and symbol ETH. Then add the first two, three, or all anvil accounts using their private addresses.
+Mock Token address `0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512`
 
 Then, in a second terminal run:
 

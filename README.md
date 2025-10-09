@@ -4,8 +4,6 @@ This project is to learn how to build a fullstack web application that uses an E
 
 A 100% client-side UI for the TSender contract.
 
-Smart Contracts: https://github.com/Cyfrin/TSender/
-
 - [TSender UI](#tsender-ui)
 - [Getting Started](#getting-started)
     - [Requirements](#requirements)
@@ -27,12 +25,6 @@ Smart Contracts: https://github.com/Cyfrin/TSender/
 - [git](https://git-scm.com/downloads)
     - You'll know you've installed it right if you can run `git --version` and get a response like `git version 2.33.0`
 
-### Environment Variables
-
-You'll need a `.env.local` the following environment variables:
-
-- `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID`: Project ID from [reown cloud](https://cloud.reown.com/)
-
 ## Setup
 
 ```bash
@@ -40,6 +32,20 @@ git clone https://github.com/matcherbudz/TSender-airdrop-ui-cu
 cd TSender-airdrop-ui-cu
 pnpm install
 pnpm anvil
+```
+### Environment Variables
+Every dApp must now provide a WalletConnect Cloud projectId to enable WalletConnect v2
+You can get a projectId at https://cloud.reown.com/ or if that doesn't work search how to get a WalletConnect Cloud projectId
+
+You'll need to add a `.env.local` to the main directory and the following environment variable
+
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id_here
+
+You can either add it in vscode or through the terminal
+```bash
+touch .env.local
+nano .env.local
+# Now add `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id_here`
 ```
 
 You'll want to make sure you have a Metamask/Rabby wallet connected to your anvil instance. Ideally you're connected to the wallet that comes with the default anvil instance. This will have some mock tokens in it.

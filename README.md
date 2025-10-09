@@ -4,16 +4,6 @@ This project is to learn how to build a fullstack web3 application that uses a E
 
 A 100% client-side UI for the TSender contract.
 
-- [TSender UI](#tsender-ui)
-- [Getting Started](#getting-started)
-    - [Requirements](#requirements)
-        - [Environment Variables](#environment-variables)
-    - [Setup](#setup)
-- [Testing](#testing)
-    - [Unit](#unit)
-    - [e2e](#e2e)
-- [Contributing](#contributing)
-
 # Getting Started
 
 ## Requirements

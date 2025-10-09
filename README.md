@@ -18,6 +18,8 @@ A 100% client-side UI for the TSender contract.
 
 ## Requirements
 
+- [foundry] (https://getfoundry.sh/)
+    - Follow the instructions on how to install foundry on the website and run foundryup
 - [node](https://nodejs.org/en/download)
     - You'll know you've installed it right if you can run `node --version` and get a response like `v23.0.1`
 - [pnpm](https://pnpm.io/)

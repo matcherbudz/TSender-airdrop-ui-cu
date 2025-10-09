@@ -3,11 +3,6 @@
 ## NEVER EXPOSE YOUR PRIVATE KEY BY PUTTING IT IN THE .ENV FILE USE CAST WALLET IMPORT INSTEAD! `cast wallet import account_name --interactive`
 ## https://awesamarth.hashnode.dev/the-best-way-to-import-your-private-key-in-foundry
 
-## (Mock Token Contract Address for testing locally with Anvil `0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512`)
-## Note: When testing manually make sure you're connected to the wallet with the Tokens in it. Also you can mint Mock Tokens using cast
-## `cast send 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 "mintTo(address,uint256)" "0x70997970C51812dc3A010C7d01b50e0d17dc79C8" 1000000000000000
-00000 --private-key 0x0` (NEVER EXPOSE YOUR PRIVATE KEY BUT WHEN USING ANVIL IS THE ONLY EXCEPTION!!)
-
 This project is to learn how to build a fullstack web3 application that uses a ERC20 smart contract to airdrop any ERC20 Token contract address to airdrop tokens to multiple recipients.
 
 A 100% client-side UI for the TSender contract.
@@ -59,6 +54,16 @@ pnpm run dev
 ```
 
 # Testing
+
+## Manual 
+## (Mock Token Contract Address for testing locally with Anvil `0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512`)
+
+When testing manually make sure you're connected to the wallet with the Tokens in it. Also you can mint Mock Tokens using cast
+```bash
+cast send 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 "mintTo(address,uint256)" "0x70997970C51812dc3A010C7d01b50e0d17dc79C8" 1000000000000000
+00000 --private-key 0x0
+```
+(NEVER EXPOSE YOUR PRIVATE KEY BUT WHEN USING ANVIL IS THE ONLY EXCEPTION!!)
 
 ## Unit
 

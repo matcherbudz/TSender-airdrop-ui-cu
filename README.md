@@ -71,27 +71,25 @@ pnpm test:unit
 Playwright should also install the browsers needed to run tests.
 
 To test e2e, do the following
+Right now synpress has a "gimmicky" feature where we will have to change the name of a folder to get it working but until this changes this is how you do it. 
+If you run synpress before creating the cache and renaming the folder in .cache-synpress
 
-```bash
-pnpm cache
-```
-
-Then run:
-
-```bash
-pnpm test:e2e
-```
-
-This will throw an error like:
+It will throw an error like:
 
 ```
 Error: Cache for 08a20e3c7fc77e6ae298 does not exist. Create it first!
 ```
+To edit in the terminal
+```bash
+pnpm synpress
+cd .cache-synpress
+ls
+```
+You will see a folder named something like 532f685e346606c2a803 rename it to 08a20e3c7fc77e6ae298
 
-The `08a20e3c7fc77e6ae298` is your `CACHE_NAME`
-
-In your `.cache-synpress` folder, rename the folder that isn't `metamask-chrome-***` to your `CACHE_NAME`.
-
+```bash
+mv 532f685e346606c2a803 08a20e3c7fc77e6ae298
+```
 Then, you should be able to run:
 
 ```

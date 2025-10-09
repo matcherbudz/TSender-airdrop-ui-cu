@@ -13,7 +13,7 @@ export default function Header() {
                     <div className="flex items-center gap-4">
                         <h1 className="text-3xl font-bold text-gray-900">tsender</h1>
                         <a
-                            href="https://github.com/matcherbudz"
+                            href="https://github.com/matcherbudz/TSender-airdrop-ui-cu"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-600 hover:text-gray-900 transition-colors"

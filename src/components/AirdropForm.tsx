@@ -293,7 +293,7 @@ export default function AirdropForm() {
                             label="Amounts in Wei for each recipent separated by comma or new line"
                             value={amounts}
                             onChange={setAmounts}
-                            placeholder="100000, 200000, 300000... separated by comma or new line"
+                            placeholder="100000, 200000, 300000..."
                             type="textarea"
                             rows={8}
                         />
